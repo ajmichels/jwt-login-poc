@@ -1,0 +1,17 @@
+form.login {
+    width: 200px;
+    height: 150px;
+    margin: 200px auto 5px auto;
+    text-align: center;
+}
+
+form.login input, form.login label {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+p.error {
+    text-align: center;
+    color: #C00;
+}
