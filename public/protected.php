@@ -4,7 +4,9 @@ require_once __DIR__ . '/../src/includes.php';
 
 $isLoggedIn = JwtLoginPoc\Login::isLoggedIn();
 
+if (!$isLoggedIn) {
     http_response_code(401);
+}
 
 ?><!doctype html>
 <html class="no-js" lang="en">
