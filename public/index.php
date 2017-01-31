@@ -1,8 +1,8 @@
 <?php
 
-    require_once __DIR__ . '/../vendor/autoload.php';
+require_once __DIR__ . '/../src/includes.php';
 
-    $isLoggedIn = JwtLoginPoc\Login::isLoggedIn();
+$isLoggedIn = JwtLoginPoc\Login::isLoggedIn();
 
 ?><!doctype html>
 <html class="no-js" lang="en">

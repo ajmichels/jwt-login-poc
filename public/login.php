@@ -1,6 +1,6 @@
 <?php
 
-require_once __DIR__ . '/../vendor/autoload.php';
+require_once __DIR__ . '/../src/includes.php';
 
 $baseUrlPattern = '/^(http|https):\/\/' . str_replace('.', '\.', $_SERVER['HTTP_HOST']) . '/i';
 $referrer = isset($_POST['redirect']) ? $_POST['redirect'] : (isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : '/index.php');
