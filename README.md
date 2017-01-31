@@ -5,7 +5,7 @@ The concepts behind Json Web Tokens (JWT) can be explored at [jwt.io](https://jw
 
 The quickest and simplest way to get the app up and running is to use the PHP embedded server.
 
-ex. `php -S 127.0.0.1:8080 -t public server.php`
+ex. `php -S 127.0.0.1:8080 -t public`
 
 The hard-coded credentials are `foo@bar.com` and  `baz`.
 
